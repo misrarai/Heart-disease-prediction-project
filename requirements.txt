@@ -1,0 +1,31 @@
+# Core Data Processing and Analysis
+numpy==1.24.3
+pandas==2.0.2
+scikit-learn==1.2.2  # Includes SVM, LogisticRegression, and RandomForestClassifier
+
+# Machine Learning Models
+xgboost==1.7.5  # XGBoost model
+
+# Web Application Framework
+streamlit==1.23.1
+
+# Data Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Model Persistence
+pickle-mixin==1.0.2
+
+# Scientific Computing
+scipy==1.10.1
+
+# Optional Dependencies
+python-dateutil==2.8.2
+pytz==2023.3
+six==1.16.0
+
+# Note: The four models used in this project are:
+# 1. SVM (from scikit-learn.svm.SVC)
+# 2. Logistic Regression (from scikit-learn.linear_model.LogisticRegression)
+# 3. Random Forest (from scikit-learn.ensemble.RandomForestClassifier)
+# 4. XGBoost (from xgboost)
